@@ -10,6 +10,15 @@ Frontend command center для расследования production-инцид�
 > optimistic mutations, URL-synced filters, table sorting and virtualization of
 > a 5,000-row live log stream.
 
+## История проекта
+
+- первоначальная разработка: август — октябрь 2025 года (период указан
+  приблизительно);
+- подготовка портфолио-версии: сентябрь 2026 года.
+
+Репозиторий содержит актуализированную и документированную версию проекта,
+подготовленную для публичного портфолио.
+
 ![IncidentCanvas social preview](public/og.png)
 
 ## Что реализовано
