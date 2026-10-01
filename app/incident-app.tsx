@@ -430,6 +430,15 @@ function Overview({
           </Button>
         </div>
       </div>
+      {acknowledge.isError && (
+        <Alert variant="destructive" className="mt-5">
+          <AlertCircle />
+          <AlertTitle>Не удалось принять инцидент</AlertTitle>
+          <AlertDescription>
+            Изменения отменены. Повторите попытку.
+          </AlertDescription>
+        </Alert>
+      )}
       <div className="mt-6">
         <MetricCards snapshot={snapshot} />
       </div>
